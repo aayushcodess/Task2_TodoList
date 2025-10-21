@@ -1,29 +1,27 @@
 # Task2_TodoList
-To-Do List Application (Console-Based)
+
 A simple and persistent console-based To-Do List app built with Python.
-This app allows users to add, view, and remove tasks directly from the command line.
-All tasks are stored in a local text file (tasks.txt), ensuring they remain available between sessions.
+Manage your daily tasks efficiently from the command line.
 
-Features
-Add new tasks easily from the command line
-View your current to-do list with task numbers
-Remove completed tasks by their index
-Persistent storage using a plain text file
-Lightweight – no external libraries required
+## Features
+- Add, view, and remove tasks
+- Persistent storage in a text file
+- Lightweight CLI design
 
---- To-Do List Menu ---
+## Installation
+git clone https://github.com/aayushcodess/Task2_TodoList.git
+cd Task2_TodoList
+python todo.py
+
+## Usage
+Run the program and use the menu options:
 1. View Tasks
 2. Add Task
 3. Remove Task
 4. Exit
 
-Enter your choice: 2
-Enter a new task: Finish Python project
-Task added successfully!
+## License
+MIT License
 
-Enter your choice: 1
-Your To-Do List:
-1. Finish Python project
-
-Enter your choice: 4
-Goodbye! Your tasks are saved.
+## Author
+Aayush (GitHub: [aayushcodess](https://github.com/aayushcodess))
